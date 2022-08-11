@@ -1,0 +1,42 @@
+.subtasks__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 20px;
+}
+
+.subtasks__container__completed {
+  opacity: 0.4;
+  display: flex;
+  justify-content: space-between;
+  /* border-top: 1px solid #f2f5fa;
+  padding-top: 5px; */
+}
+
+.subtasks__container-items {
+  display: flex;
+  align-items: center;
+}
+
+.subtasks__container-items__button {
+  cursor: pointer;
+}
+
+.subtasks__container-items__item {
+  margin-left: 16px;
+}
+
+
+
+.subtasks__container-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.subtasks__container-buttons__button {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.subtasks__container-buttons__button:last-child {
+  margin-right: 0px;
+}

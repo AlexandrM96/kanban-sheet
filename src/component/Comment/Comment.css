@@ -1,0 +1,46 @@
+.comment__container {
+  padding: 21px 20px;
+  border-top: 1px solid #f2f5fa;
+  border-bottom: 1px solid #f2f5fa;
+}
+
+.comment__container-user {
+  display: flex;
+}
+
+.comment__container-user h6 {
+  margin: 0px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.comment__container-user span {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #B7B9BB;
+  padding-left: 10px;
+}
+
+.comment__container-comment {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  margin-left: 50px;
+}

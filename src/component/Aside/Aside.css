@@ -1,0 +1,136 @@
+.asside {
+  width: 100%;
+}
+
+.asside__container {
+  padding-top: 23px;
+}
+
+.asside__container__title-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.asside__block-title {
+  position: relative;
+}
+
+.asside__lamp {
+  border-radius: 50%;
+  background: #333333;
+  width: 8px;
+  height: 8px;
+  position: absolute;
+}
+
+.asside__title {
+  font-family: "Noto Serif TC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  color: #333333;
+  padding-left: 8px;
+  margin: 0;
+}
+
+.asside__container__title-block-button {
+  cursor: pointer;
+}
+
+.asside__container__menu-buttons {
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.asside__container__menu-buttons div {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 26px;
+}
+
+.asside__container__menu-buttons div:last-child {
+  margin-bottom: 34px;
+}
+
+.asside__container__menu-buttons p {
+  padding-left: 11px;
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #333333;
+  cursor: pointer;
+}
+
+.asside__container__favourites-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #b7b9bb;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.asside__container__favourites-block__button button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B7B9BB;
+  border: none;
+  background: none;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.asside__container__favourites-block__button button span {
+  margin-right: 7px;
+}
+
+.asside__container__teams {
+  padding-left: 15px;
+  padding-right: 30px;
+}
+
+.asside__container__teams-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #b7b9bb;
+  margin: 0;
+  margin-top: 32px;
+}
+
+.asside__container__teams-block div {
+  display: flex;
+  margin-bottom: 21px;
+  margin-top: 10px;
+}
+
+.asside__container__teams-block p {
+  padding-left: 13px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #333333;
+  margin: 0;
+}

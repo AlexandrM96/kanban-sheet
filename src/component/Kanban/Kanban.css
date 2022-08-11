@@ -1,0 +1,114 @@
+.kanban__container {
+  background: #ffffff;
+  height: 92.5vh;
+  border-radius: 10px;
+}
+
+.kanban__container__title-filter-sort {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 19px;
+  padding-right: 20px;
+  border-bottom: 1px solid #f2f5fa;
+}
+
+.kanban__container__title-filter-sort__open-modal {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  padding-left: 19px;
+  padding-right: 20px;
+  border-bottom: 2px solid #f2f5fa;
+}
+
+.kanban__title-filter-sort {
+  display: flex;
+}
+
+.kanban__title-filter-sort div {
+  display: flex;
+  margin-right: 33px;
+}
+
+.kanban__title-filter-sort div:last-child {
+  margin-right: 0;
+}
+
+.kanban__title h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #808080;
+  margin: 0;
+}
+
+.kanban__title-filter-sort div img {
+  width: 15px;
+}
+
+.kanban__title-filter-sort div p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #808080;
+  padding-left: 7px;
+  margin: 0;
+}
+
+.kanban__container__kanban {
+  display: flex;
+  padding-left: 19px;
+  padding-right: 20px;
+}
+
+.kanban__container__kanban-list {
+  width: 100%;
+}
+
+.kanban-addlist_button {
+  /* margin-top: 31px; */
+}
+
+.kanban-addlist_button button {
+  border: none;
+  background: #f8f9fa;
+  color: #808080;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  cursor: pointer;
+  transition: 0.9s;
+  padding: 0px;
+}
+
+.kanban-addlist_button button:hover {
+  color: #6d6c6c;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.kanban-addlist_input {
+  border: none;
+  background: #ffffff;
+  color: #808080;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media screen and (max-width: 1919px) {
+  .kanban__container {
+    height: 89.8vh;
+  }
+}

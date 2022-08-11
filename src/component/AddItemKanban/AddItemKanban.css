@@ -1,0 +1,23 @@
+.add-item-Kanban__container-item-add {
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(21, 27, 38, 0.2);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .add-item-Kanban__container-item-add__input {
+    font-family: "Open Sans"; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #e5e5e5;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,50 @@
+.add-item-branch__container-item-add {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  padding-top: 8px;
+  padding-left: 15px;
+}
+
+.add-item-branch__container-item-add-none {
+  display: none;
+}
+
+.add-item-branch__container-item-add__input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #e5e5e5;
+  width: 100%;
+  border: none;
+}
+
+.add-item-branch__container-item-add__img {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.add-item-branch__container-item-add__img:last-child {
+  margin-right: 0;
+}
+
+.add-item-branch__container-item-button button {
+  cursor: pointer;
+  border: none;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #808080;
+  background: #ffffff;
+  transition: 0.8s;
+}
+
+.add-item-branch__container-item-button button:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}

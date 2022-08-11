@@ -1,0 +1,15 @@
+.app {
+  height: 100vh;
+  background: #f2f5fa;
+  margin: 0 auto;
+}
+
+input {
+  outline: none;
+}
+
+@media screen and (max-width: 1919px) {
+  .App {
+    width: 1400px;
+  }
+}

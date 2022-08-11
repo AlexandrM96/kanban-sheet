@@ -1,0 +1,11 @@
+.main__section {
+    display: flex;
+}
+
+.main__section-asside {
+  width: 15%;
+}
+
+.main__section-container {
+    width: 85%;
+}

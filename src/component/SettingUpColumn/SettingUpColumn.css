@@ -1,0 +1,88 @@
+.setting-up-column {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.setting-up-column__container-column-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setting-up-column__container-column-title h4 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin: 0;
+}
+
+.setting-up-column__container-column-title__input {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #333333;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.setting-up-column__container-column-title__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.setting-up-column__container-column-title__button {
+  cursor: pointer;
+  border: none;
+  background: #f2f5fa;
+  font-size: 16px;
+  align-items: center;
+  margin-right: 10px;
+  transition: 0.9s;
+}
+
+.setting-up-column__container-column-title__button:last-child {
+ margin-top: 1px;
+}
+
+.setting-up-column__container-column-title__button:hover {
+  transform: scale(1.3);
+  transition: 0.4s;
+}
+
+.setting-up-column__container-column-title__button:last-child {
+  margin-right: 0;
+}
+
+.setting-up-column__setting-none {
+  display: none;
+}
+
+.setting-up-column__setting {
+  width: 100px;
+  background: #e9eef6;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  z-index: 999999;
+}
+
+.setting-up-column__setting div {
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: 0.8s;
+  color: #333333;
+}
+
+.setting-up-column__setting div:hover {
+  color: #2d2626;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
