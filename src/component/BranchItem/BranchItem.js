@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import AddItemBranch from "../AddItemBranch/AddItemBranch";
-import { taskComplItemBranch, timer } from "../../redux/action";
-import { useSelector, useDispatch } from 'react-redux';
+import { taskComplItemBranch } from "../../redux/action";
+import { useDispatch } from 'react-redux';
 import 'moment-timezone';
 import moment from 'moment';
 import './BranchItem.css';
@@ -15,49 +15,6 @@ export default function BranchItem(props) {
     });
 
     const dispatch = useDispatch();
-
-    // const [counterSecond, setCounterSecond] = useState(props.item.timerStart);
-    // const [counter, setCounter] = useState(120);
-    // const [status, setStatus] = useState(props.item.statusTime);
-
-    // const newData = Math.round(Date.now() / 1000);
-
-    // useEffect(() => {
-    //     setCounterSecond(props.item.timerStart)
-    //     if (props.item.status === true && props.item.timerStart !== 0 && props.item.timerStart) {
-    //         setCounterSecond(props.item.timerStop - props.item.timerStart);
-    //     } else {
-    //         if (props.item.timerStart !== 0) {
-    //             setCounterSecond(newData - props.item.timerStart);
-    //             setStatus("working");
-    //         }
-    //         let secondCounterId;
-    //         let counterId;
-    //         if (status === "working" && props.item.status !== true) {
-    //             secondCounterId = setTimeout(
-    //                 () => setCounterSecond(newData - props.item.timerStart),
-    //                 1000
-    //             );
-    //             dispatch(timer(counterSecond));
-    //             counterId = setTimeout(() => setCounter(counter - 1), 1000)
-    //         }
-
-    //         return () => {
-    //             clearTimeout(counterId);
-    //             clearTimeout(secondCounterId);
-    //         };
-    //     }
-    // }, [counterSecond, counter, status]);
-
-    // const stopTimers = () => {
-    //     setStatus("stop");
-    // };
-
-    // const resume = () => {
-    //     if (status !== "stop") {
-    //         setStatus("working");
-    //     }
-    // };
 
     const clickBranch = () => {
         branchStatus.status === false ?
