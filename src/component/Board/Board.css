@@ -10,7 +10,8 @@
 .board__container-column {
   background: #f2f5fa;
   border-radius: 10px;
-  width:276px;
+  min-width: 276px;
+  max-width: 276px;
   height: 96.3%;
   margin-right: 15px;
   padding: 15px;
@@ -21,7 +22,8 @@
   background: #c1c7d11e;
   text-align: center;
   border-radius: 10px;
-  width: 276px;
+  min-width: 276px;
+  max-width: 276px;
   height: 96.3%;
   margin-right: 15px;
   padding: 15px;
