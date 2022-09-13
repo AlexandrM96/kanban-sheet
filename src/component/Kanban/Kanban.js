@@ -2,7 +2,7 @@ import React from 'react';
 import './Kanban.css';
 import Board from '../Board/Board';
 import TaskWindow from '../TaskWindow/TaskWindow';
-import ModalOverlay from '../modal-overlay/modal-overlay';
+import ModalOverlay from '../modal-overlay/modal-overlay.jsx';
 import { useSelector } from 'react-redux';
 
 export default function Kanban() {
